@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-	max-width: 836px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -87,6 +87,7 @@ a {
 
 .hero p {
 	margin-bottom: 12px;
+	font-size: 18px;
 }
 
 .hero img {
@@ -111,26 +112,56 @@ button {
 	padding: 48px 0;
 }
 
+.information .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .information h2 {
 	font-size: 36px;
 	color: #1f2937;
 	font-weight: 900;
-	margin-bottom: 48px;
 }
 
 .info-items {
 	display: flex;
-	gap: 42px;
+	gap: 48px;
+	margin: 56px 0;
 }
 
 .item {
-	width: 150px;
+	width: 170px;
+	font-size: 18px;
 }
 
 .item img {
 	border: 4px solid #3882f6;
 	border-radius: 12px;
 	width: 100%;
-	height: 150px;
+	height: 170px;
 	margin-bottom: 6px;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	padding: 144px 0 112px 0;
+}
+
+.quote .container {
+	padding: 0 117px;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	color: #1f2937;
+}
+
+.quote-author {
+	font-weight: 700;
+	text-align: end;
+	font-size: 24px;
+	margin-right: 32px;
 }
