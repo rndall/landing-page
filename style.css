@@ -19,6 +19,10 @@ h1, h2, p {
 	margin: 0;
 }
 
+p {
+	font-size: 18px;
+}
+
 body > div {
 	padding: 16px;
 }
@@ -35,7 +39,7 @@ a {
 }
 
 .container {
-	max-width: 1024px;
+	max-width: 969px;
 	margin: 0 auto;
 }
 
@@ -103,7 +107,7 @@ button {
 	font: inherit;
 	font-weight: 700;
 	border-radius: 8px;
-	padding: 8px 32px;
+	padding: 8px 36px;
 }
 
 .information {
@@ -149,7 +153,7 @@ button {
 }
 
 .quote .container {
-	padding: 0 117px;
+	padding: 0 93px;
 }
 
 .quote-text {
@@ -163,5 +167,36 @@ button {
 	font-weight: 700;
 	text-align: end;
 	font-size: 24px;
-	margin-right: 32px;
+	margin-right: 24px;
+}
+
+.cta {
+	margin: 81px 0;
+}
+
+.cta .container {
+	background-color: #3882f6;
+	color: white;
+	padding: 48px 93px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.cta h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.cta button {
+	border: 3px solid white;
+	margin-right: 24px;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: white;
+	padding: 36px 0;
+	text-align: center;
 }
